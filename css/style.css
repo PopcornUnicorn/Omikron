@@ -1,0 +1,366 @@
+/* Your custom styles */
+@font-face {
+    font-family: "AvenirNextCyr-Bold"; /* Имя шрифта */
+    src: url("../font/AvenirNextCyr-Bold.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNextCyr-Demi"; /* Имя шрифта */
+    src: url("../font/AvenirNextCyr-Demi.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNextCyr-Light"; /* Имя шрифта */
+    src: url("../font/AvenirNextCyr-Light.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNextCyr-Regular"; /* Имя шрифта */
+    src: url("../fonts/AvenirNextCyr-Regular.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AvenirNextCyr-Italic"; /* Имя шрифта */
+    src: url("../font/AvenirNextCyr-Italic.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AvenirNextCyr-Medium"; /* Имя шрифта */
+    src: url("../fonts/AvenirNextCyr-Medium.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto-BoldCondensed"; /* Имя шрифта */
+    src: url("../fonts/roboto/Roboto-BoldCondensed.ttf"); /* Путь к файлу со шрифтом */
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.default-color{
+    background-color: white;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: black!important;
+}
+.nav-link a{
+    color:blue!important;
+}
+
+ .btn{
+    font-family: "Roboto-BoldCondensed",sans-serif;
+    font-size: 12px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+    color: white; 
+    border-radius: 31px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.block1{
+    background-image: url("../img/aa.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+.block1 h1{
+    font-family: "AvenirNextCyr-Bold",sans-serif;
+    font-size: 45px;
+    line-height: 48px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.block1 .btn, 
+.block2 .btn, 
+.block3 .btn, 
+.block5 .btn, 
+.block6 .btn,
+.block8 .btn {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+}
+
+.block2{
+    text-align: center;
+}
+
+.block2 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    
+}
+
+.item{
+    padding: 30px 250px;
+}
+
+.block3{
+    text-align: center;
+    color:#414141;
+}
+
+.block3 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.block3 h3{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.block3 h4{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #414141;
+}
+
+.rainbow{
+
+    background:linear-gradient(90deg, #9b1a75 0%, #c01a22 19%, #d0751a 40%, #c0b015 58%, #43943b 78%, #2e4786 94%);
+}
+  
+.media p{
+    text-align: left;
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color:#ffffff;
+    margin-top: 16px;
+}
+
+.diagnostics{
+    width: 250px;
+}
+
+.col-2 img{
+    transform: scale(0.5);
+}
+
+.col-10 .text-left h5,p{
+    padding-left: 0px;
+}
+
+.block3 .btn{
+    margin-top:30px;
+    margin-bottom:70px;
+}
+
+.block4 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.block5{
+    background-image: url("../img/back4.jpg");
+    background-repeat: repeat-x;
+    text-align: left;
+    background-color: #edeeee;
+}
+
+.block5 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:45px; 
+}
+
+.block5 p{
+    font-family: "AvenirNextCry-Italic", sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    font-style: italic;
+    color:#414141;
+    padding-top: 20px;
+}
+
+.block5 .btn{
+    margin-top: 15px;
+}
+
+.block6{
+    background-image:url("../img/back5.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.block6 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top:45px;
+    padding-bottom:30px;  
+}
+
+.block6 ul{
+    padding-left:0px; 
+}
+
+.block6 li{
+    list-style: none; 
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    color:#414141;
+}
+
+.block6 p{
+    padding-right: 15px;
+}
+
+.block6 .btn{
+    margin:15px 0px; 
+}
+.block8{
+    text-align: center;
+}
+
+.block8 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    background: linear-gradient(90deg,  #285ea9 0%, #285ea9 23%, #7db9e8 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    padding-top:45px;
+    padding-bottom:30px;  
+}
+
+.block8 h4{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    color: #414141;
+    
+}
+
+.service{
+    width: 200px;
+}
+
+.block9{
+    background-color: #2464ad;
+}
+
+.block9 h1{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color:#ffffff;
+    padding-top:45px;
+    padding-bottom:30px;
+}
+
+.block9 ul{
+    padding-left: 0px;
+    border-radius: 27px;
+}
+
+.block9 li{
+    font-family: "AvenirNextCry-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+    color: #414141;
+}
+ 
+.block9 li p{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px; 
+    color: #414141;
+}
+
+.block9 h4{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px; 
+    color:#ffffff;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.pricing-card .header {
+    border-radius: 46px 46px 0 0;
+}
+
+.card{
+    border-radius: 46px;
+}
+
+.block9 .media p{
+    font-family: "AvenirNextCry-Demi", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px; 
+    text-align: center;
+}
+
+.block10{
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat; 
+}
+
+.block10 p{
+    font-family: "AvenirNextCry-Regular", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
